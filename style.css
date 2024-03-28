@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d55b3f;
+}
+
+.rate-box{
+    background-color: #fdd8bd;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.head{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: monospace;
+    word-spacing: -4px;
+    color: #9d4b38;
+}
+
+.stars i {
+    font-size: 2rem;
+    padding: 1rem 0.6rem 0.5rem;
+    color: #aeaeae;
+    cursor: pointer;
+}
+
+i.active{
+    color: orangered;
+}
